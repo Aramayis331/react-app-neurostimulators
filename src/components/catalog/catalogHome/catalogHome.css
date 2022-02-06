@@ -1,0 +1,20 @@
+.catalogHome {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalog_div_btn_more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.catalog_btn_more {
+	background-color: #F07FAE;
+	border: 1px solid #F07FAE;
+	color: #ffffff;
+	font-weight: 500;
+	transition: 0.4s;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}

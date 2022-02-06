@@ -1,0 +1,36 @@
+@media only screen and (max-width: 726px) { 
+	.about-us-div-1 {
+		width: 65%;
+		margin: 0px 15px 0px 0px;
+	}
+	.about-us-div-2-img-div {
+		transform: translateX(-5px);
+	}
+}
+@media only screen and (max-width: 600px) { 
+	.about-us-div {
+		flex-direction: column;
+	}
+	.about-us-div-1 {
+		width: 100%;
+		margin: 0px;
+	}
+	.about-us-div-2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 525px) { 
+	.about-us {
+		margin-top: 15px;
+	}
+	.about-us-div {
+		margin-top: 15px;
+	}
+	.about-us-div-2-text {
+		font-size: 12px;
+		margin: 4px 0px 12px 0px;
+	}
+	.about-us-div-2-titel {
+		font-size: 14px;
+	}
+}

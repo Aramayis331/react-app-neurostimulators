@@ -1,0 +1,135 @@
+.cart {
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 30px;
+}
+.cartTitel {
+	margin-top: 0px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #333333;
+	cursor: pointer;
+}
+.cart-total-price-products {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	border: 1px solid #DFDFDF;
+	border-radius: 10px;
+	background-color: #F7F7F7;
+	padding: 10px;
+	margin: 40px 0px 20px 0px;
+}
+.cart-div-total-price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cart-total-text {
+	cursor: pointer;
+	color: #707070;
+    font-size: 15px;
+}
+.cart-total-price {
+	cursor: pointer;
+    color: #333333;
+    font-weight: 700;
+    font-size: 18px;
+}
+.cart-total-price-button {
+	cursor: pointer;
+	border: none;
+	background-color: #F07FAE;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-weight: 700;
+	font-size: 15px;
+	color: #ffffff;
+	transition: 0.4s;
+	margin: 10px 0px 0px 0px;
+}
+.cart-total-price-button:hover {
+	background-color: #B5557D;
+}
+.productsCartEmpty {
+	display: inline;
+	margin: 40px 0px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #333333;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) { 
+	.cartTitel {
+		font-size: 35px;
+	}
+	.productsCartEmpty {
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 650px) { 
+	.productsCartEmpty {
+		font-size: 30px;
+	}
+	.cart-total-price-products {
+		margin: 30px 0px 0px 0px;
+	}
+	.cart-total-price-button {
+		padding: 8px 12px;
+	}
+	.cartToLink {
+		font-size: 14px;
+	}
+	.cart-total-price {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 500px) {  
+	.cartTitel {
+    	font-size: 30px;
+	}
+	.cart-total-price-button {
+		padding: 7px 10px;
+		font-size: 13px;
+	}
+	.cart-total-price {
+		font-size: 16px;
+	}
+	.cart-total-text {
+		font-size: 15px;
+	}
+	.cart-total-price-products {
+		margin: 20px 0px 0px 0px;
+	}
+	.productsCartEmpty {
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 380px) {  
+	.cartTitel {
+		font-size: 22px;
+	}
+	.cartToLink {
+		font-size: 11px;
+	}
+	.cart-total-text {
+		font-size: 13px;
+	}
+	.cart-total-price {
+		font-size: 14px;
+	}
+	.cart-total-price-button {
+		font-size: 11px;
+	}
+	.cart-total-price-products {
+		padding: 5px;
+		margin: 15px 0px 0px 0px;
+	}
+	.cart {
+		padding: 0px 10px 0px 10px;
+		margin-bottom: 10px;
+	}
+}

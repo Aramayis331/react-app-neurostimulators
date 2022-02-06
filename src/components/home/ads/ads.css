@@ -1,0 +1,110 @@
+.ads {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 10px;
+}
+.ads-div-1 {
+	width: 55%;
+	margin: 0px 30px 0px 0px;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px;
+	background-image: linear-gradient(99.15deg, #50A6E3 0%, #A7DAFF 101.08%);
+}
+.ads-div-1-text {
+	width: 50%;
+}
+.ads-div-1-text-1 {
+	cursor: pointer;
+	display: inline;
+	font-size: 35px;
+	color: #ffffff;
+	font-weight: 700;
+}
+.ads-div-1-text-2 {
+	margin: 20px 0px;
+	cursor: pointer;
+	color: #ffffff;
+}
+.ads-div-1-text-button {
+	cursor: pointer;
+	padding: 12px 20px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 15px;
+	background-color: #ffffff;
+	color: #333333;
+	border: none;
+	transition: 0.4s;
+}
+.ads-div-1-text-button:hover {
+	background-color: #E0E0E0;
+}
+.ads-div-1-img {
+	width: 50%;
+}
+.ads-div-1-img img {
+	width: 100%;
+	height: 100%;
+}
+.ads-div-2 {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.ads-div-2-ads1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(0deg, rgba(0, 141, 65, 0.2), rgba(0, 141, 65, 0.2)), linear-gradient(113.62deg, #2AB86B 0%, #5DE39A 97.37%);
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0px 0px 15px 0px;
+}
+.ads-div-2-ads2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(112.82deg, #F68AB1 0%, #FEB5CF 100%);
+	border-radius: 10px;
+	padding: 20px;
+	margin: 15px 0px 0px 0px;
+}
+.ads-div-2-text {
+	width: 60%;
+}
+.ads-div-2-text-1 {
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	display: inline;
+}
+.ads-div-2-text-2 {
+	margin: 10px 0px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.ads-div-2-text-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 15px;
+	color: #ffffff;
+	transition: 0.4s;
+}
+.ads-div-2-text-button:hover {
+	color: #E0E0E0;
+}
+.ads-div-2-img {
+	width: 30%;
+}
+.ads-div-2-img img {
+	width: 100%;
+	height: 100%;
+}

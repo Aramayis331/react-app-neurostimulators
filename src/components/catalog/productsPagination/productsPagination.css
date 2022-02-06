@@ -1,0 +1,110 @@
+.productsPagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.pagination-ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagination-ul-li {
+	list-style: none;
+	padding: 7px 0px;
+	margin: 0px 5px;
+}
+.pagination-ul-li-link-active {
+	cursor: pointer;
+	background-color: #F07FAE;
+	border: 1px solid #F07FAE;
+	color: #ffffff;
+	font-weight: 700;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 7px 15px;
+	font-size: 16px;
+}
+.pagination-ul-li-link {
+	cursor: pointer;
+	border: 1px solid #DFDFDF;
+	color: #333333;
+	border-radius: 5px;
+	transition: 0.4s;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 7px 15px;
+	font-size: 16px;
+}
+.pagination-ul-li-link:hover {
+	background-color: #F07FAE;
+	border: 1px solid #F07FAE;
+	color: #ffffff;
+	transition: 0.4s;
+}
+.pagination_button {
+	border: 1px solid #DFDFDF;
+	background-color: #ffffff;
+	padding: 9px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.4s;
+	color: #333333;
+	margin: 0px 15px;
+}
+.pagination_button:hover {
+	background-color: #F07FAE;
+	border: 1px solid #F07FAE;
+	transition: 0.4s;
+	color: #ffffff;
+}
+.pagination_button_left {
+	font-size: 16px;
+	margin-right: 2px;
+}
+.pagination_button_right {
+	font-size: 16px;
+	margin-left: 2px;
+}
+
+@media only screen and (max-width: 500px) {  
+	.productsPagination {
+		margin: 0px;
+	}
+	.pagination-ul-li-link, .pagination-ul-li-link-active {
+		padding: 4px 12px;
+	}
+	.pagination_button {
+		padding: 6px 12px;
+	}
+}
+@media only screen and (max-width: 400px) { 
+	.pagination_button {
+		margin: 0px;
+		padding: 4px 10px;
+	}
+	.pagination-ul-li-link, .pagination-ul-li-link-active {
+		padding: 2px 10px;
+		font-size: 15px;
+	}
+	.pagination_button_left, .pagination_button_right {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 380px) {  
+	.pagination-ul-li {
+		margin: 0px 3px;
+		padding: 0px;
+	}
+	.pagination-ul-li-link, .pagination-ul-li-link-active {
+		padding: 1px 8px;
+		font-size: 14px;
+	}
+	.pagination_button {
+		padding: 3px 8px;
+		margin-top: 2px;
+	}
+	.pagination_button_left, .pagination_button_right {
+		font-size: 13px;
+	}
+}

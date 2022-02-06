@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1058px) {  
+	.catalog-menu-titel {
+		width: 25%;
+	}
+	.products-catalog-paginata {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 850px) {  
+	.catalog-titel-text {
+		font-size: 20px;
+	}
+	.catalog-ul-li-link, .catalog-ul-li-link-active {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 800px) { 
+	.catalog-titel p {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 780px) {   
+	.products-filter-div {
+		padding: 10px;
+		margin-bottom: 21px;
+	}
+	.catalog-menu-titel {
+		width: 27%;
+	}
+	.products-catalog-paginata {
+		width: 73%;
+	}
+}
+
+@media only screen and (max-width: 720px) {   
+	.catalog-menu-titel {
+		width: 28%;
+	}
+	.products-catalog-paginata {
+		width: 72%;
+	}
+}
+
+@media only screen and (max-width: 700px) {   
+	.catalog-menu-titel {
+		width: 30%;
+	}
+	.products-catalog-paginata {
+		width: 70%;
+	}
+	.catalog-titel-text {
+		font-size: 17px;
+		margin: 5px 0px;
+	}
+}
+
+@media only screen and (max-width: 690px) {   
+	.catalog_container {
+		flex-direction: column;
+	}
+	.products-catalog-paginata {
+		width: 100%;
+		margin-top: 15px;
+	}
+	.buttonFilters {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 20%;
+
+	}
+	.buttonFilters button {
+		border: none;
+		background-color: #F07FAE;
+		color: #ffffff;
+		border-radius: 5px;
+		font-size: 18px;
+		padding: 4px 0px;
+		width: 100%;
+		font-weight: 500;
+		cursor: pointer;
+	}
+	.buttonFilters button:hover {
+		background-color: #B5557D;
+	}
+	.catalog-menu-titel-off {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 616px) {   
+	.catalog-menu-titel {
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 522px) {   
+	.catalog-menu-titel {
+		width: 40%;
+	}
+	.buttonFilters  {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 500px) {  
+	.catalog-titel p {
+    	font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 479px) {  
+	.catalogHome, .catalogProductsPage, .catalogProducts{
+		justify-content: center !important;
+	}
+}
+
+@media only screen and (max-width: 460px) {  
+	.catalog-menu-titel {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 380px) {  
+	.catalog-titel p {
+		font-size: 22px;
+	}
+	.products-checkbox-label {
+		font-size: 11px;
+		margin-left: 0px;
+	}
+	.products-filter-checkboxFalse {
+		width: 17px;
+		height: 17px;
+	}
+	.products-filter-div {
+		justify-content: center;
+	}
+	.buttonFilters {
+		width: 25%;
+	}
+	.buttonFilters button {
+		font-size: 15px;
+		padding: 3px 0px;
+	}	
+	.products-catalog-paginata {
+		margin-top: 5px;
+	}
+	.catalog-menu-titel {
+		width: 50%;
+	}
+	.catalog-ul-li-link, .catalog-ul-li-link-active {
+		font-size: 11px;
+	}
+	.menu-catalog {
+		padding: 0px;
+	}
+	.catalog-titel-text {
+		font-size: 15px;
+		margin: 3px 0px;
+	}
+	.catalog_btn_more {
+		padding: 7px 15px;
+	}
+}

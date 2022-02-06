@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1177px) {   
+	.footer-row1-div1 {
+		flex-direction: column;
+		align-items: center;
+		width: 49%;
+	}
+	.footer-row1-div1-text {
+		margin-bottom: 10px;
+	}
+	.footer-row1-div2 {
+		flex-direction: column;
+	}
+	.footer-row1-div2-tel-div {
+		display: flex;
+		margin-bottom: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-row1-div2-text {
+		margin-left: 5px;
+	}
+	.footer-row1-div2-buttons-div button {
+		padding: 15px 5px;
+		width: 40%;
+	}
+	.footer-row1-div2-buttons-div {
+		width: 100%;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 871px) { 
+	.footer-row-3-text {
+		font-size: 14px;
+	}
+ }
+@media only screen and (max-width: 811px) {  
+	.footer-row1-div2-buttons-div button {
+		padding: 10px 5px;
+		width: 43%;
+	}
+}
+@media only screen and (max-width: 791px) {  
+	.footer-row-3-div-img {
+		display: none;
+	}
+	.footer-row-3 {
+		padding: 15px;
+	}
+}
+@media only screen and (max-width: 674px) {  
+	.footer-row-2-div1 {
+		display: none;
+	}
+	.footer-row-2-div2 {
+		justify-content: flex-start;
+	}
+	.footer-row1-input {
+		padding: 12px 6px;
+		font-size: 14px;
+	}
+	.footer-row1-div1-input-div button {
+		padding: 12px 6px;
+		font-size: 14px;
+	}
+	.footer-row1-div2-buttons-div button {
+		width: 43%;
+		font-size: 14px;
+	}
+	.footer-row1-div1-text {
+		font-size: 15px;
+	}
+	.phoneSvg svg {
+		width: 17px;
+		height: 17px;
+	}
+	.footer-row1-div2-tel-text {
+		font-size: 15px;
+	}
+	.footer-row1-div1-text {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 625px) {   
+	.footer-row1-div1-input-div {
+		flex-direction: column;
+		width: 100%;
+	}
+	.footer-row1-input {
+		border-radius: 5px;
+		padding: 9px 5px;
+		margin-bottom: 10px;
+		width: 80%;
+		border: 2px solid transparent;
+	}
+	.footer-row1-div1-input-div button {
+		border-radius: 5px;
+		border: 2px solid transparent;
+		width: 80%;
+		padding: 9px 5px;
+	}
+	.footer-row1-div2-text {
+		display: none;
+	}
+	.footer-row1-div1-text {
+		font-size: 14px;
+	}
+	.footer-row1-div2-buttons-div {
+		flex-direction: column;
+	}
+	.footer-row1-div2-button1 {
+		margin: 0px 0px 10px 0px;
+	}
+	.footer-row1-div2-button2 {
+		margin: 0px;
+	}
+	.footer-row1-div2-buttons-div button {
+		padding: 9px 5px;
+		font-size: 14px;
+		width: 80%;
+	}
+	.footer-row-1 {
+		padding: 10px;
+	}
+	.footer-row1-div2-tel-div {
+		flex-direction: column;
+	}
+	.footer-row-3-text {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 581px) {  
+	.footer-row-3 {
+		padding: 10px;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 460px) {  
+	.footer-row1-input {
+		width: 100%;
+		padding: 7px 5px;
+		font-size: 13px;
+	}
+	.footer-row1-div1-input-div button {
+		width: 100%;
+		padding: 7px 5px;
+		font-size: 13px;
+	}
+	.footer-row1-div2-buttons-div button {
+		padding: 7px 5px;
+		width: 100%;
+		font-size: 13px;
+	}
+	.footer-row1-div1-text {
+		font-size: 11px;
+	}
+	.footer-row1-div2-tel-text {
+		font-size: 11px;
+	}
+	.phoneSvg svg {
+		width: 15px;
+		height: 15px;
+	}
+	.footer-row-2-div2-titel {
+		font-size: 14px;
+		margin: 0px 0px 5px 0px;
+	}
+	.footer-row-2-div2-li {
+		margin: 0px 0px 3px 0px;
+		font-size: 12px;
+	}
+	.footer-row-2 {
+		padding: 10px;
+	}
+	.footer-row-2-div3 {
+		width: 62%;
+	}
+	.emailSvg svg {
+		width: 17px;
+		height: 17px;
+	}
+	.footer-row-3-text {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 370px) {   
+	.footer-row1-div1-text, .footer-row1-div2-tel-div {
+		display: none;
+	}
+}

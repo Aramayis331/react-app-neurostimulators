@@ -1,0 +1,141 @@
+.catalog {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 30px;
+}
+.catalog_container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.catalog-menu-titel {
+	width: 20%;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.products-catalog-paginata {
+	width: 80%;
+}
+.catalog-titel {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.catalog-titel p {
+	font-size: 40px;
+    font-weight: 700;
+    color: #333333;
+    cursor: pointer;
+}
+.catalog-titel-text {
+	cursor: pointer;
+	color: #333333;
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.4s;
+	margin: 10px 0px;
+}
+.catalog-price-range-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+.catalog-ul-li-link {
+	cursor: pointer;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.catalog-ul-li-link-active {
+	color: #F07FAE;
+	cursor: pointer;
+	font-weight: 500;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.catalog-ul-li-link:hover {
+	color: #F07FAE;
+}
+.menu-catalog {
+	padding: 0px 0px 5px 0px;
+	list-style: none;
+}
+.products-filter-div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px solid #DFDFDF;
+	box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+	border-radius: 10px;
+	padding: 15px;
+    margin-bottom: 30px;
+}
+.products-filter-checkboxFalse {
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #DFDFDF;
+	cursor: pointer;
+	transition: 0.4s;
+	margin: 0px 5px 0px 0px;
+	cursor: pointer;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: sub;
+}
+.products-filter-checkboxTrue {
+	border-radius: 5px;
+	background-color: #F07FAE;
+	border: 1px solid #F07FAE;
+	cursor: pointer;
+	margin: 0px 5px 0px 0px;
+	cursor: pointer;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: sub;
+
+	background-image: url(../../images/galochka.png);
+	background-repeat: no-repeat;
+	background-position-y: 2px;
+	background-position-x: 1.1px;
+	background-size: 90%;
+}
+.products-checkbox-label {
+	color: #333333;
+	font-size: 13px;
+	font-weight: 500;
+	transition: 0.4s;
+	margin-left: 5px;
+}
+.products-filter-label:hover  .products-filter-checkboxFalse {
+	border: 1px solid #F07FAE;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.products-filter-checkbox-div {
+	padding: 0px 20px 0px 0px;
+}
+.products-filter-label {
+	display: flex;
+	justify-content: flex-start;
+    align-items: center;
+}
+.catalog-range-slider-div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.buttonFilters {
+	display: none;
+}

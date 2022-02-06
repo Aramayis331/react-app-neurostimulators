@@ -1,0 +1,9 @@
+.instaSvg {
+	margin: 0px 0px 0px 15px;
+	cursor: pointer;
+	fill: #333333;
+	transition: 0.4s;
+}
+.instaSvg:hover {
+	fill: #707070;
+}

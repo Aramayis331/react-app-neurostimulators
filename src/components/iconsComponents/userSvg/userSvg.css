@@ -1,0 +1,8 @@
+.userSvg {
+	cursor: pointer;
+	fill: #333333;
+	transition: 0.4s;
+}
+.userSvg:hover {
+	fill: #707070;
+}

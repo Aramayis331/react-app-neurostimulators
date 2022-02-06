@@ -1,0 +1,8 @@
+.cartSvg {
+	cursor: pointer;
+	fill: #333333;
+	transition: 0.4s;
+}
+.cartSvg:hover {
+	fill: #707070;
+}

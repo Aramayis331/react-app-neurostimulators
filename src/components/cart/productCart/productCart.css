@@ -1,0 +1,106 @@
+.productCart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #DFDFDF;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.productCart-div-img-titel {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 55%;
+}
+.productCart-div-priceTotal, .productCart-div-priceOne{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.productCart-div-img {
+	width: 12%;
+}
+.productCart-div-img img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.productCart-div-titel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px;
+}
+.productCart-titel {
+	cursor: pointer;
+    color: #333333;
+    font-weight: 700;
+	font-size: 18px;
+}
+.productCart-information {
+	color: #707070;
+    font-size: 15px;
+    cursor: pointer;
+}
+.productCart-div-price-count-remove {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 45%;
+}
+.productCart-priceOne, .productCart-priceTotal {
+	cursor: pointer;
+    color: #333333;
+    font-weight: 700;
+	font-size: 18px;
+}
+.productCart-priceOne-counte, .productCart-count-priceTotal {
+	color: #707070;
+    font-size: 15px;
+    cursor: pointer;
+}
+.productCart-div-buy-count {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #DFDFDF;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+.productCart-text-count-buy {
+	cursor: pointer;
+	color: #707070;
+	margin: 0px 20px 0px 0px;
+}
+.productCart-div-arrows {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.productCart-buy-button-left, .productCart-buy-button-right {
+	color: #333333;
+	border: none;
+	cursor: pointer;
+	margin: 2px 0px 0px 10px;
+	background-color: transparent;
+	font-size: 12px;
+	transition: 0.4s;
+}
+.productCart-buy-button-left:hover, .productCart-buy-button-right:hover {
+	color: #707070;
+}
+.productCart-div-remove {
+	color: #F07FAE;
+	font-size: 25px;
+}
+.iconRemove {
+	cursor: pointer;
+	transition: 0.4s;
+}
+.iconRemove:hover {
+	color: #B5557D;
+}

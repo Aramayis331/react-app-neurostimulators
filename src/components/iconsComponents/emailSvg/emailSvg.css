@@ -1,0 +1,8 @@
+.emailSvg {
+	fill: #F07FAE;
+	padding: 0px 8px 0px 0px;
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}

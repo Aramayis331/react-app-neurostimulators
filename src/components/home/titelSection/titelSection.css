@@ -1,0 +1,17 @@
+.titel-sections-text {
+	color: #333333;
+	cursor: pointer;
+	display: inline;
+	font-weight: 700;
+	font-size: 23px;
+}
+@media only screen and (max-width: 800px) {  
+	.titel-sections-text {
+		font-size: 21px;
+	}
+}
+@media only screen and (max-width: 525px) {  
+	.titel-sections-text {
+		font-size: 19px;
+	}
+}

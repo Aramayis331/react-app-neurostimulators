@@ -1,0 +1,44 @@
+.about-us {
+	margin-top: 30px;
+	padding: 0px 10px;
+}
+.about-us-div {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.about-us-div-1 {
+	width: 45%;
+	margin: 0px 40px 0px 0px;
+}
+.about-us-div-1 img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.about-us-div-2 {
+	width: 55%;
+}
+.about-us-div-2-text {
+	cursor: pointer;
+	margin: 4px 0px 20px 0px;
+}
+.about-us-div-2-titel {
+	cursor: pointer;
+	color: #333333;
+	font-weight: 700;
+	display: inline-block;
+}
+.about-us-div-2-img-div {
+	display: flex;
+	transform: translateX(-11px);
+}
+.about-us-div-2-img {
+	width: 25%;
+	padding: 0px 5px 0px 0px;
+}
+.about-us-div-2-img img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
