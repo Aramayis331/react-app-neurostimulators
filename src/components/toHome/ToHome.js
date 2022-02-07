@@ -5,7 +5,7 @@ const ToHome = () => {
 	return (
 		<ul className='cartUlLink'>
 			<li className='cartLiLink'>
-				<NavLink to='/' className='cartToLink'>Главная страница</NavLink>
+				<NavLink to='/react-app-shop' className='cartToLink'>Главная страница</NavLink>
 			</li>
 		</ul>
 	)

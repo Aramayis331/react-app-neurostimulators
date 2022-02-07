@@ -62,7 +62,7 @@ let Header = ({ cartCount }) => {
 				</div>
 			</div>
 			<div className='header-row-2'>
-				<NavLink to='/' className='header-div-logo'>
+				<NavLink to='/react-app-shop' className='header-div-logo'>
 					<img src={logo} className='header-logo'/>
 				</NavLink>
 				<div className='header-div-input'>
